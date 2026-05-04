@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.item.completada .texto {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.texto {
+  flex: 1;
+}
+
+.btn-eliminar {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
